@@ -22,7 +22,6 @@ const initialState: UserState = {
     link: '',
     major1: '',
     major2: '',
-    name: '',
     phone: '',
     picture: '',
     univ: '',
