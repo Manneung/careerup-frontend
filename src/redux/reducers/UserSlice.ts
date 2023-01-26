@@ -59,9 +59,6 @@ export const userSlice = createSlice({
       })
       .addCase(patchPicture.fulfilled, (state, action) => {
         state.entities.picture = action.payload;
-      })
-      .addCase(patchPicture.pending, (state) => {
-        state.loading = true;
       });
   },
 });
