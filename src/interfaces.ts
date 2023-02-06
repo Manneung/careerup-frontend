@@ -26,7 +26,6 @@ export interface IUserData {
   link: string;
   major1: string;
   major2: string;
-  name: string;
   nickname: string;
   phone: string;
   picture: string;

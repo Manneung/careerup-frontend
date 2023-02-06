@@ -138,11 +138,11 @@ function MyPage() {
             />
             <div className="profile__info">
               <ProfileContent
-                key="name"
+                key="nickname"
                 label="이름"
-                value={userData.name}
-                inputName="name"
-                inputValue={inputs.name}
+                value={userData.nickname}
+                inputName="nickname"
+                inputValue={inputs.nickname}
                 onChange={onChange}
               />
               <ProfileContent
